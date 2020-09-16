@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading should render correctly 1`] = `
+<div
+  className="loading"
+>
+  <div
+    className="loading__message"
+  >
+    Repellat quisquam recusandae alias consequuntur corporis.
+  </div>
+</div>
+`;

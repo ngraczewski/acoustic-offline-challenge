@@ -1,0 +1,33 @@
+@import '../../css/variables.css';
+
+.article {
+  border: var(--border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.article__lead-image {
+  position: relative;
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+  width: 100%;
+}
+
+.article__header {
+  display: flex;
+  align-items: baseline;
+  padding: 0 var(--spacing);
+}
+
+.article__header__date,
+.article__header__author {
+  color: var(--secondary-color);
+}
+
+.article__header__author {
+  margin-left: auto;
+}
+
+.article__body {
+  padding: 0 var(--spacing);
+}

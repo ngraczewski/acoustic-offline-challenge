@@ -1,0 +1,51 @@
+@import '../../css/variables.css';
+
+:root {
+  --loading-indicator-size: 50px;
+}
+
+@keyframes pulse {
+  50% {
+    width: var(--loading-indicator-size);
+    height: var(--loading-indicator-size);
+    opacity: 100%;
+    margin: 0;
+    margin-right: var(--spacing);
+  }
+
+  0%,
+  100% {
+    --size-ratio: 0.2;
+    --margin: calc(
+      var(--loading-indicator-size) * 0.5 * (1 - var(--size-ratio))
+    );
+    --size: calc(var(--loading-indicator-size) * var(--size-ratio));
+    width: var(--size);
+    height: var(--size);
+    opacity: 20%;
+    margin: var(--margin);
+    margin-right: calc(var(--margin) + var(--spacing));
+  }
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+}
+
+.loading__message {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.loading__message::before {
+  content: '';
+  background-color: var(--primary-color);
+  width: var(--loading-indicator-size);
+  height: var(--loading-indicator-size);
+  border-radius: 50%;
+  display: block;
+  animation: pulse 1s infinite;
+  box-shadow: var(--box-shadow);
+}

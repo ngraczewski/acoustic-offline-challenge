@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article should render correctly 1`] = `
+<div
+  className="article"
+>
+  <ArticleLeadImage
+    imageAltText="Sunt qui amet iure."
+    imageSrc="http://marcellus.info"
+  />
+  <ArticleHeader
+    author="Zola"
+    date={2019-11-07T09:25:05.320Z}
+    title="Repellat quisquam recusandae alias consequuntur corporis."
+  />
+  <ArticleBody
+    body={
+      Array [
+        "<p>Nulla quam ipsam nobis cupiditate sed dignissimos. Incidunt accusantium sed libero repudiandae esse blanditiis natus et eos. Velit omnis et porro ut et ipsam explicabo eligendi occaecati. Et saepe eum dicta eum eaque enim ipsum inventore debitis. Aspernatur deserunt quam tempore a velit provident velit. Nostrum ipsam qui nobis repellendus fugiat velit sit.</p>",
+        "<p>Fuga doloribus distinctio placeat ullam minima ducimus temporibus modi. Architecto ducimus totam. Explicabo exercitationem ut quis sed magni cupiditate sit vitae soluta.</p>",
+      ]
+    }
+  />
+</div>
+`;

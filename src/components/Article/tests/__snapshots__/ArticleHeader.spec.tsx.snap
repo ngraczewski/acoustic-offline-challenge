@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleHeader should render correctly 1`] = `
+<header
+  className="article__header"
+>
+  <h1
+    className="article__header__title"
+  >
+    Repellat quisquam recusandae alias consequuntur corporis.
+  </h1>
+  <div
+    className="article__header__author"
+  >
+    by 
+    Zola
+     at 
+    Thu Nov 07 2019
+  </div>
+</header>
+`;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleBody should render correctly 1`] = `
+<div
+  className="article__body"
+>
+  <div
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<p>Quisquam recusandae alias consequuntur corporis repellat ratione ut sunt qui. Iure ut libero qui. Ut nulla quam ipsam nobis cupiditate sed dignissimos debitis incidunt. Sed libero repudiandae.</p>",
+      }
+    }
+    key="0"
+  />
+  <div
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<p>Natus et eos itaque velit omnis. Porro ut et ipsam explicabo eligendi occaecati debitis et. Eum dicta eum eaque enim ipsum inventore debitis libero aspernatur. Quam tempore a velit provident velit eligendi.</p>",
+      }
+    }
+    key="1"
+  />
+</div>
+`;

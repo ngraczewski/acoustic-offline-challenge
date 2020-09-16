@@ -1,0 +1,10 @@
+.error-boundary {
+  border: var(--border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: 0 var(--spacing) var(--spacing);
+}
+
+.error-boundary__title {
+  color: var(--danger-color);
+}
